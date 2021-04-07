@@ -15,14 +15,7 @@
 #
 
 # Use all private apps
-PRODUCT_PACKAGES += \
-    Aegis \
-    Lawnchair \
-    Longshot \
-    MoKeePay \
-    Phonograph \
-    ViaBrowser \
-    WarpShare
+PRODUCT_PACKAGES += 
 
 # Use all private libraries
 ifeq ($(MK_CPU_ABI),arm64-v8a)
